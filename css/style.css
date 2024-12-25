@@ -1,0 +1,512 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+    font-family:poppins, sans-serif
+}
+
+.topbar{
+  background-color: #0e384c;
+  color:white;
+  font-size: 13;
+}
+.hamburger{
+  display: none;
+}
+.primarycolor{
+  color:#1e84b5;
+}
+.secondrycolor{
+  color:#0e384c;;
+}
+.lighBlue{
+  background-color: #eff8ff;
+}
+
+.spacer{
+margin-top:80px;
+margin-bottom:80px;
+}
+
+.mainmenu{
+  display: flex;
+  gap:5px;
+}
+.mainmenu li{
+padding:10px 15px;
+color:#111821;
+list-style-type:none;
+}
+.mainmenu li a{
+color:#111821;
+text-decoration:none;
+}
+.appointmentBookingBtn{
+  background-color: #1e84b5;
+  border-radius: 30px;
+  transition:0.4s;
+  border:1px solid rgba(30, 26, 26, 0);
+  padding: 10px 20px;
+}
+
+/* .appointmentBookingBtn:hover{
+  background-color: #1e84b5;
+} */
+.appointmentBookingBtn a{
+  color: white !important;
+}
+
+.bannerContent h1{
+
+font-size:55px;
+font-weight: 700;
+}
+.secoundBtn{
+  background-color: #1e84b5;
+  border-radius: 30px;
+  transition:0.4s;
+  padding: 10px 20px;
+  border:none;
+  color: white;
+  border: 1px solid#f1783200;
+}
+.thirdBtn{
+  background-color: #1e84b5;
+  border-radius: 30px;
+  border: 1px solid#f1783200;
+  transition:0.4s;
+  padding: 10px 20px;
+  color:white;
+
+}
+.secoundBtn:hover{
+  background: none;
+  border: 1px solid#111821;
+  color:#111821;
+}
+
+.thirdBtn:hover{
+  background: none;
+  border: 1px solid#111821;
+  color:#111821;  
+}
+.box{
+  width: 31%;
+  border-radius: 10px;
+  padding: 25px 20px;
+box-shadow: 0px 0px 12px 0px #8ac1be;
+}
+
+.box h1{
+  font-size :20px;
+ font-weight: bold;
+ margin-top: 10px;
+}
+.box p{
+  font-size :14px;
+}
+.content h1{
+font-weight:bold;
+font-size: 60px;
+}
+
+.content h2{
+  font-size: 26px;
+  }
+
+  .serviceSection{
+    background-color: #eff8ff;
+  }
+
+  .boxservice{
+    width: 32%;
+    border-radius: 15px;
+    padding: 0px;
+    margin-top: 20px;
+  box-shadow: 0px 0px 12px 0px #c4c4c4;
+  }
+  .boxservice img {
+    width: 100%;
+}
+  .boxservice h1{
+    font-size :25px;
+   font-weight: bold;
+   margin-top: 15px;
+  }
+  .boxservice p{
+    font-size :14px;
+  }
+  .leftSideimg{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  padding: 50px 15px;
+  }
+
+  .rightSide{
+    background-color: #111821;
+  padding: 50px ;
+
+  }
+  .rightSide  h1{
+    font-weight:bold;
+    font-size: 60px;
+    }
+    
+    .rightSide h2{
+      font-size: 26px;
+      }
+
+      .blueBox{
+        background: #1e84b5 !important;
+    border-top-left-radius: 40px 40px;
+    border-bottom-right-radius: 40px 40px;
+    padding: 40px 20px;
+  color:white;   
+  margin-top:-30px ;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+  box-shadow: 0px 0px 10px 4px #2e3742a6;
+  }
+  .blueBox div{
+    padding: 20px;
+    text-align: center;
+  }
+
+.blueBox div h1{
+  font-size: 50px;
+}
+.processBox h1{
+  font-size: 22px;
+margin: 10px 0px;
+}
+.processBox h5{
+color: #1e84b5;  
+padding: 10px;
+font-weight: bold;
+font-size: 25px;
+}
+.processBox p{
+  font-size: 15px;
+  color: #585858;
+}
+.carBanner{
+  background-color: #eff8ff;
+}    
+
+.footer{
+  padding: 40px 20px;
+  color: white;
+
+}
+.footer div{
+padding: 30px 10px;
+}
+form.contactForm label {
+    color: rgb(0, 0, 0);
+    margin-top: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .contactForm{
+    
+      text-align: left;
+}
+form.contactForm input {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+}
+.bannerImg{
+  width:65%;
+}
+.row.multiSlider div img {
+  border-radius: 10px;
+}
+
+.serviceContent h1 {
+  font-size: 42px;
+  font-weight: bold;
+}
+.serviceContent img{
+  width: 60%;
+}
+ul.footer-list li a {
+  color: white;
+  text-decoration: none;
+  line-height: 35px;
+}
+
+.table-section {
+  background-color:#eff8ff;
+  padding: 100px 0px;
+  text-align: center;
+}
+.table-section table {
+  margin:  auto;
+  text-align: left;
+}
+.table-section table tr th {
+  padding: 10px 15px;
+  width: 22%;
+}
+.table-section table tr:first-child{
+  
+  border: 1px solid #111821;
+  background-color: #111821;
+  color:hsl(0, 0%, 100%)
+}
+
+.table-section table tr td {
+  padding: 5px 15px;
+}
+
+#ham{
+  display: none;
+
+}
+  #closeIcon{
+    display: none;
+
+  }
+#mobile-sidebar{
+  display: none;
+  
+}
+table.customerdata {
+  margin: 30px 0px;
+  width: 100%;
+  border: 1px solid grey;
+}
+table.customerdata tr th, table.customerdata tr td {
+  padding: 12px;
+  border: 1px solid grey;
+}
+@media screen and (max-width: 900px) and (min-width: 500px)  {
+  .bannerContent h1 {
+    font-size: 42px;
+}
+.bannerContent {
+  padding: 10px !important;
+}
+.bannerImg {
+  width: 350px;
+}
+.mainmenu li {
+  padding:5px;
+}
+.mainmenu li a {
+  font-size: 15px;
+}
+.box h1 {
+  font-size: 17px;}
+  .box p {
+    font-size: 12px;
+}
+img.aboutUsImg {
+  width: 380px;
+  border-radius: 10px;
+}
+.mt-5 {
+  margin-top: 0rem !important;
+}
+.content{
+  padding: 50px 0px;
+}
+.content h1 {
+  font-size: 40px;
+}
+.content h2 {
+ font-weight: bold;
+  font-size: 20px;
+}
+.boxservice {
+  width: 48%;
+}
+.boxservice img{
+  width: 100%;
+}
+.leftSideimg {
+  background-position: top;
+  background-size: cover;
+}
+.rightSide {
+  padding: 20px;
+}
+.rightSide h1 {
+  font-size: 45px;
+}
+.rightSide h2 {
+  font-size: 16px;
+}
+.rightSide p{
+  font-size: 13px;
+}
+.content h1 {
+  font-size: 20px;
+}
+.processBox p {
+  font-size: 12px;
+}
+.content {
+  padding: 0px 0px;
+}
+.content h1 {
+  font-size: 50px;
+}
+.content h2 {
+  font-size: 20px;
+}
+.row.blueBox div h4 {
+  font-size: 16px;
+}
+.col-sm-12.col-lg-7.content {
+  text-align: center;
+}
+.bookingContent div img{
+  display: none;
+}
+
+.bookingContent div{
+  margin:0px !important;
+}
+.serviceContent h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.serviceContent h2 {
+  font-size: 15px;
+}
+.serviceContent p {
+  font-size: 12px;
+}
+.serviceContent img{
+  width: 100%;
+}
+}
+.thank-you-container {
+  text-align: center;
+  margin: 11rem 0px;
+}
+
+@media only screen and (max-width: 450px) {
+  .active{
+    display: none !important;
+transition: 0.5s !important;
+
+  }
+  #closeIcon{
+    display: none;
+
+  }
+  #ham{
+    display: block;
+  }
+
+  .responsive-header{
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+  #mobile-sidebar{
+    display: none;
+    position: fixed;
+    top:20px;
+  background-color: white;
+    left: 0px;
+padding: 10px 15px 25px 15px;
+transition: 0.5s;
+  }
+  .mobile-menu {
+    padding-left: 8px;
+  }
+  .mobile-menu li{
+list-style: none;
+margin: 17px 5px;
+  }
+  #mobile-sidebar img {
+    width: 85%;
+}
+  .mobile-menu li a{
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 500;
+    height: 25rem;
+
+      }
+  .responsive-header div{
+width: 50%;
+  }
+  .box{
+    width: 100%;
+    margin: 10px;
+}
+.topbar, .mainmenu{
+  display: none;
+}
+.hamburger{
+  display: block;
+}
+.bannerContent{
+  padding: 50px 15px;
+}
+.bannerContent h1{
+  font-size: 40px;
+}
+.aboutUsImg{
+  width: 100%;
+}
+.content h2 {
+  font-size: 16px;
+}
+
+.content h1 {
+  font-size: 50px;
+}
+.bannerImg{
+  width:350px;
+}
+.leftSideimg {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: initial;
+  padding: 200px 15px;
+}
+.boxservice{
+  width: 100%;
+}
+.boxservice img {
+  width: 100%;
+}
+.rightSide{
+  padding: 15px;
+}
+.rightSide h1 {
+  font-size: 50px;
+}
+.rightSide h2 {
+  font-size:18px;
+}
+.multiSlider div img{
+  margin: 15px 0px;
+}
+.col-sm-12.col-md-4.processBox h1 {
+  font-size: 28px;
+}
+.processBox img{
+  margin-top:30px;
+}
+
+.footer {
+  padding: 30px 0px;
+}
+.bookingContent div img{
+  display: none;
+}
+.bookingContent div{
+  margin:0px !important;
+}
+}
